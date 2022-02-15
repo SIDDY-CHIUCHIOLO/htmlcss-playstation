@@ -1,0 +1,13 @@
+
+header .my-header-top{
+    background-color: black;
+}
+
+header img#logo-sony{
+    width: 150px;
+}
+
+header .my-header-bottom{
+    background-color: red;
+    height: 170px;
+}

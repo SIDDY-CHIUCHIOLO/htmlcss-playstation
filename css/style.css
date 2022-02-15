@@ -9,5 +9,48 @@ header img#logo-sony{
 
 header .my-header-bottom{
     background-color: red;
-    height: 170px;
 }
+
+header .my-header-bottom .dropdown i{
+    font-size: 12px;
+}
+
+main section.jumbotron{
+    height: 800px;
+    width: 100%;
+    background-color: red;
+}
+
+main section.playstation-5{
+    height: 2000px;
+    width: 100%;
+    background-color: blue;
+}
+
+main section.playstation-4{
+    height: 1000px;
+    width: 100%;
+    background-color: orange;
+}
+
+main section.sconti{
+    height: 1000px;
+    width: 100%;
+    background-color: green;
+}
+
+main section.social{
+    height: 300px;
+    width: 100%;
+    background-color: violet;
+}
+
+footer div.my-footer{
+    height: 600px;
+    width: 100%;
+    background-color: lightskyblue;
+}
+
+
+
+

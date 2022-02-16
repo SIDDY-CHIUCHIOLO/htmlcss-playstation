@@ -22,18 +22,11 @@ header .my-header-bottom .dropdown i{
     font-size: 12px;
 }
 
-main section.jumbotron{
-    height: 800px;
-    width: 100%;
-    background-color: red;
-}
-
 main section.jumbotron #my-jumbotron-top{
     height: 675px;
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
 }
-
 
 main section.jumbotron #my-jumbotron-top .my-box img{
     width: 55%;
@@ -70,3 +63,13 @@ footer div.my-footer{
 }
 
 
+/* modifica */
+
+main section.jumbotron #my-jubotron-bottom-card .my-box-card{
+
+}
+
+main section.jumbotron #my-jubotron-bottom-card .my-box-card img{
+    width: 100%;
+    border-radius: 30px;
+}

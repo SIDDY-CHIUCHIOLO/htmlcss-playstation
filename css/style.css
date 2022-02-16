@@ -3,14 +3,26 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+img{
+    width: 100%;
+}
+
+h5, h6{
+    color: #626262;
+}
+
 .my-button{
     border-radius: 20px;
     border: none;
     font-weight: bold;
 }
 
-main section h5, h6{
-    color: #626262;
+.my-banner-logo{
+    width: 55%;
+}
+
+.my-border-radius{
+    border-radius: 30px;
 }
 
 header .my-header-bottom .my-button-nav{
@@ -33,46 +45,46 @@ header .my-header-bottom .dropdown i{
     font-size: 12px;
 }
 
-main section.jumbotron #my-jumbotron-top{
+main section#jumbotron #my-jumbotron-top{
     height: 675px;
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
 }
 
-main section.jumbotron #my-jumbotron-top .my-box img{
-    width: 55%;
-}
-
-main section.jumbotron #my-jumbotron-top .my-box .my-button-jumbotron {
+main section#jumbotron #my-jumbotron-top .my-box .my-button-jumbotron {
     background-color: #dc3545;
 }
 
-main section.jumbotron #my-jubotron-bottom-card .my-box-card img{
+main section#jumbotron #my-jubotron-bottom-card .my-box-card img{
     width: 100%;
-    border-radius: 30px;
 }
 
-main section.playstation-5{
-    height: 2000px;
-    width: 100%;
-    background-color: blue;
-}
-
-main section.playstation-5 #my-contain-info-ps5{
-    background-color: white;
-}
-
-main section.playstation-5 #my-contain-info-ps5 .my-text-blue{
+main section#playstation-5 #my-contain-info-ps5 .my-text-blue{
     color: #0673d2;
     font-size: 0.9rem;
 }
 
-main section.playstation-5 #my-contain-info-ps5 img{
+main section#playstation-5 #my-contain-info-ps5 img{
     width: 100%;
 }
 
-main .playstation-5 #my-contain-info-ps5 .my-button-ps5 {
+main #playstation-5 #my-contain-info-ps5 .my-button-ps5 {
     background-color: #0d6efd;
+}
+
+main section#new-game .banner{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main section#new-game .my-button-banner {
+    background-color: #dc3545;
+}
+
+main section#new-game #new-releases {
+    background-color: #1f1f1f;
 }
 
 main section.playstation-4{
@@ -98,6 +110,7 @@ footer div.my-footer{
     width: 100%;
     background-color: lightskyblue;
 }
+
 
 
 

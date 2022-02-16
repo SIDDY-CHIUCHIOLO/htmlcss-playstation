@@ -1,4 +1,11 @@
 
+.my-button{
+    border-radius: 20px;
+    background-color: #db3040;
+    border: none;
+    font-weight: bold;
+}
+
 header .my-header-top{
     background-color: black;
 }
@@ -19,6 +26,17 @@ main section.jumbotron{
     height: 800px;
     width: 100%;
     background-color: red;
+}
+
+main section.jumbotron #my-jumbotron-top{
+    height: 675px;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+}
+
+
+main section.jumbotron #my-jumbotron-top .my-box img{
+    width: 55%;
 }
 
 main section.playstation-5{
@@ -50,7 +68,5 @@ footer div.my-footer{
     width: 100%;
     background-color: lightskyblue;
 }
-
-
 
 

@@ -108,17 +108,29 @@ main section#sconti .banner{
     background-color: #161c3b;
 }
 
-main section.social{
-    
-    width: 100%;
-    background-color: violet;
-}
+/* da modificare */
+/* 0070d1 */
 
-footer div.my-footer{
-    height: 600px;
-    width: 100%;
+footer div#my-footer{
     background-color: #0070d1;
 }
+
+footer div#my-footer #logo-globe{
+    width: 20px;
+}
+
+footer div#my-footer #logo-ps{
+    width: 100px;
+}
+
+footer div#my-footer ul li{
+    list-style: none;
+}
+
+footer #my-footer #logo-sie{
+    width: 150px;
+}
+
 
 
 
